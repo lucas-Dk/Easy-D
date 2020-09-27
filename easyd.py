@@ -26,7 +26,7 @@ def baixar_arquivo(url, local):
 # Início do programa 
 print('\nVerificando seu sistema operacional...')
 time.sleep(2)
-if sys.platform == "linux2":
+if sys.platform == "linux2" and sys.platform == "linux":
 	print('\033[1;32mSistema operacional compativel :)\033[m')
 	while True:
 		# Chamando a função que mostra o nome
