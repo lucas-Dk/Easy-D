@@ -8,11 +8,16 @@ clique com o botão direito em cima do botão download,
 copie o link e cole no arquivo
 o download vai ser iniciado e você terá sua música!
 
+Para baixar uma imagem, copie sua url
+e cole no local de download
+
+faça o procedimento para qualquer coisa que for baixar!
+
 
 # NÃO FIQUE PERDIDO
 
-na parte de colocar o local para salvar sua música
-coloque o caminho + o nome que você quer + o .mp3 ou mp4 e etc
+na parte de colocar o local para salvar sua música, video ou imagem
+coloque o caminho + o nome que você quer + o .mp3 ou .mp4 ou .jpg e etc
 
 Exemplo:
 
