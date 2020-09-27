@@ -1,6 +1,6 @@
 # Easy-D
 Script para fazer downloads
-
+ATUALIZAÇÃO FEITA EM 27/09/2020
 # SAIBA COMO USAR
 
 Para baixar uma música, vá ao diretorio da música do site
@@ -25,7 +25,7 @@ Users\any\Downloads\teste.mp4
 
 # COMO BAIXAR O SCRIPT
 
-use: gitclone + link do meu arquivo
+use: git clone + link do meu arquivo
 
 by> Lucas Walker
 
