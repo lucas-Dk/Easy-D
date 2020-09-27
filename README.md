@@ -1,11 +1,12 @@
 # Easy-D
 Script para fazer downloads
 
+
+ATUALIZAÇÃO FEITA EM 27/09/2020
+
 # RECURSO ADICIONADO
 
 Modo de baixar quantos arquivos quiser
-
-ATUALIZAÇÃO FEITA EM 27/09/2020
 # SAIBA COMO USAR
 
 Para baixar uma música, vá ao diretorio da música do site
