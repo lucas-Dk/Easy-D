@@ -6,6 +6,18 @@ def titulo(texto):
 	print(texto)
 
 
+# Função que fará o trabalho
+def baixar_arquivo(url, local):
+	try:
+		urllib.request.urlretrieve(url, local)
+	except (ValueError, TypeError):
+		print('Ocorreu um problema com o tipo de dado fornecido!')
+	else:
+		print('Arquivo baixado!')
+		print('Acesse o arquivo no caminho especificado para baixar')
+
+
+
 # Chamando a função que mostra o nome
 os.system("clear")
 titulo("""\033[1;31m
@@ -51,3 +63,17 @@ OBS: Fiz para fins de estudos!
 
 # Início do programa
 
+try:
+	link = str(input('Url do arquivo: '))
+	print()
+	tipo = str(input('local de armazenamento e nome do arquivo (leia a instrução): '))
+	print()
+except (ValueError, TypeError):
+	print()
+	print('Ocorreu um problema com o tipo de dado fornecido!')
+except KeyboardInterrupt:
+	print()
+	print('\nSaiu!')
+else:
+	print('\033[1;94mFazendo download do arquivo....\033[m\n')
+	baixar_arquivo(link, tipo)
