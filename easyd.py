@@ -76,8 +76,8 @@ except KeyboardInterrupt:
 	print('\nSaiu!')
 else:
 	try:
-		urllib.request.urlretrieve(link,tipo)
 		print('\033[1;94mFazendo download do arquivo....\033[m\n')
+		urllib.request.urlretrieve(link,tipo)
 	except:
 		print('\033[1;31mLink quebrado / privado ou inválido!\033[m')
 
@@ -87,3 +87,4 @@ else:
 finally:
 	print('\n\033[4mObrigado por usar, volte sempre!\033[m')
 	print()
+
