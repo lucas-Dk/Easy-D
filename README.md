@@ -1,5 +1,6 @@
 # Easy-D
 Script para fazer downloads
+
 ATUALIZAÇÃO FEITA EM 27/09/2020
 # SAIBA COMO USAR
 
