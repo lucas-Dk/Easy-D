@@ -78,6 +78,7 @@ OBS: LEIA O README.md !!!\033[m\033[1;95m
 		except KeyboardInterrupt:
 			print()
 			print('\nSaiu!')
+			break
 
 		else:
 			print('\033[1;94mFazendo download do arquivo....\033[m\n')
