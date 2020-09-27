@@ -1,6 +1,10 @@
 # Easy-D
 Script para fazer downloads
 
+# RECURSO ADICIONADO
+
+Modo de baixar quantos arquivos quiser
+
 ATUALIZAÇÃO FEITA EM 27/09/2020
 # SAIBA COMO USAR
 
