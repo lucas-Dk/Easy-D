@@ -84,15 +84,22 @@ OBS: LEIA O README.md !!!\033[m\033[1;95m
 			print('\033[1;94mFazendo download do arquivo....\033[m\n')
 			baixar_arquivo(link, tipo)
 
-		novamente = str(input('Deseja baixar mais alguma coisa? S ou enter para baixar / N para sair: ')).upper().strip()
-		while novamente not in "S" and novamente not in "N":
-			novamente = str(input('Deseja baixar mais alguma coisa S/N: ')).upper().strip()
+		try:
 
-		if novamente == "S" or novamente == "":
-			pass
-		elif novamente  == "N":
+			novamente = str(input('Deseja baixar mais alguma coisa? S ou enter para baixar / N para sair: ')).upper().strip()
+			while novamente not in "S" and novamente not in "N":
+				novamente = str(input('Deseja baixar mais alguma coisa S/N: ')).upper().strip()
+
+		except KeyboardInterrupt:
+			print('\nSaiu')
 			break
-
+		else:
+			if novamente == "S" or novamente == "":
+				pass
+			elif novamente  == "N":
+				break
+		finally:
+			time.sleep(1)
 	print()
 	titulo('Volte sempre!')
 	print()
