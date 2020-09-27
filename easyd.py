@@ -3,9 +3,11 @@ import urllib.request
 import sys
 from datetime import datetime
 import time
+
 # Ano em que o script está sendo rodado
 ano = datetime.now().year
 print('\033[1mVocê está rodando este programa em {}\033[m'.format(ano))
+
 # Função de início
 def titulo(texto):
 	print(texto)
